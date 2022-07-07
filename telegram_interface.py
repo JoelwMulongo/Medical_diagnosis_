@@ -1,4 +1,4 @@
-# @author: @v0dro
+
 # use: create a friendly interface for interacting with various things in the
 # telegram API
 
