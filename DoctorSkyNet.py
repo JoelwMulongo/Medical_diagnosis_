@@ -1,6 +1,5 @@
 #!/usr/bin/python
 """
-Owner = Jaideep Kekre
 This module askes the questions
 """
 from disease_interface import Buckets
