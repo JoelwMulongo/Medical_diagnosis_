@@ -1,8 +1,5 @@
 #!/usr/bin/python 
 
-"""
-author: Jaideep Kekre
-"""
 '''
 Symptom Legend:
 '''
