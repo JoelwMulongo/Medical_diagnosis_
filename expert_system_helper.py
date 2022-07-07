@@ -1,6 +1,4 @@
 #!usr/bin/python
-# Owner :Jaideep Kekre
-# _author_ = Jaideep Kekre / Sameer Deshmukh
 # _info_   = Helpers for the expert system.
 
 class question_interface_helper():
