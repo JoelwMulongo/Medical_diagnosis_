@@ -1,7 +1,6 @@
 # DATES : 4 jan 2016
 # USE : Poll telegram API for incoming messages and forward them to core
 # after wrapping in a nice JSON format.
-# Owner : @v0dro
 
 import os
 import threading
