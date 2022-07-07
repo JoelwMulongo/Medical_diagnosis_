@@ -1,6 +1,4 @@
 #!usr/bin/python
-# Owner : Sameer Deshmukh
-# _author_ = Sameer Deshmukh
 # _info_   = Nausea top questions.
 
 def data():
