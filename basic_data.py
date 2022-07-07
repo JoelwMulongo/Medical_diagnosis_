@@ -1,6 +1,4 @@
 #!usr/bin/python
-# Owner : Sameer Deshmukh
-# _author_ = Sameer Deshmukh
 # _info_   = Questions for basic data.
 
 def data():
