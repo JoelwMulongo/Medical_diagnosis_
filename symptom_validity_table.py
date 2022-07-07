@@ -1,6 +1,5 @@
 #!usr/bin/python
-# Owner : @v0dro
-# _author_ =  @v0dro
+
 # _info_   = Table which stores state of symptoms
 
 class symptom_validity_table(object):
