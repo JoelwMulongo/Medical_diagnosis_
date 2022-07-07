@@ -1,9 +1,5 @@
 #!/usr/bin/python
 
-"""
-author: Jaideep Kekre
-"""
-
 import os
 import smtplib
 from email.mime.multipart import MIMEMultipart
