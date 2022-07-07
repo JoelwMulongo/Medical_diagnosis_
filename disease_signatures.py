@@ -1,6 +1,5 @@
 #!/usr/bin/python
 """
-Owner : Jaideep Kekre
 
 This module stores the  Other symptom state on a per disease level, rest are 
 automatically set to True
