@@ -1,6 +1,4 @@
 #!usr/bin/python
-# Owner : @v0dro
-# _author_ =  @v0dro
 # _info_   = Scratch pad for keeping track of which questions have been asked
 #   and their status.
 from symptom_validity_table import symptom_validity_table
