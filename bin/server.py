@@ -21,7 +21,6 @@ CREATOR = dispatcher.dispatcher()
 MESSAGE_QUEUE = Queue()
 FINISHED_MESSAGE_QUEUE = Queue()
 
-
 def return_messages(return_queue):
     def actually_return_messages(resp):
         m = resp[0]
