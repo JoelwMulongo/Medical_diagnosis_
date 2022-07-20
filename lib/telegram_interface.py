@@ -17,7 +17,6 @@ def create_keyboard(text_list, keyboard_type='column'):
 
     return telegram.ReplyKeyboardMarkup(presentation_text, one_time_keyboard=True)
 
-
 def tester():
     create_keyboard(['hello', 'my', 'dear'])
 
