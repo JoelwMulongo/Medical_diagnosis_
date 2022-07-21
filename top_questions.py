@@ -3,7 +3,6 @@
 from Emoji import no
 from Emoji import yes
 
-
 def data():
     return  {
         'fever' : {
