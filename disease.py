@@ -31,7 +31,6 @@ yellow_nails = 'yellow_nails'
 '''
 Rating Legend:
 '''
-
 CRITICAL = 20
 IMPORTANT= 10
 OPTIONAL = 5
