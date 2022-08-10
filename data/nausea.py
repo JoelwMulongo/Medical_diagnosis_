@@ -1,4 +1,6 @@
 #!usr/bin/python
+# Owner : joelmulongo
+# _author_ = joelmulongo
 # _info_   = Nausea top questions.
 
 def data():

@@ -1,9 +1,10 @@
-
+# @author: humprey ng'ang'a
 # use: create a friendly interface for interacting with various things in the
 # telegram API
 
 import telegram
-update 
+
+
 def create_keyboard(text_list, keyboard_type='column'):
     presentation_text = []
 
@@ -16,6 +17,7 @@ def create_keyboard(text_list, keyboard_type='column'):
         raise ("Wrong input " + keyboard_type)
 
     return telegram.ReplyKeyboardMarkup(presentation_text, one_time_keyboard=True)
+
 
 def tester():
     create_keyboard(['hello', 'my', 'dear'])

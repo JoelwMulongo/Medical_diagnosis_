@@ -1,8 +1,9 @@
-
+# DATES : 4JAN15 , 7JAN15
 # CORE : called by dispatcher.py.
 # USE : To read JSON object , and perform functions on it .
 # FUNCTIONS: getStruct() , readStruct() , tokenizeResponse() , languageMagic()
-# Issues: "put your issues here"# from expert_system import expert_system
+# Owner : joelmulongo 
+# Issues: "humphrey put your issues here"# from expert_system import expert_system
 # from dispatcher import dispatcher
 from Emoji import no
 from Emoji import yes

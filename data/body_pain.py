@@ -1,6 +1,6 @@
 #!usr/bin/python
-# Owner : Sameer Deshmukh
-# _author_ = Sameer Deshmukh
+# Owner : joelmulongo
+# _author_ = joelmulongo
 # _info_   = Questions for body pain.
 from Emoji import yes, no
 

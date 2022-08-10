@@ -1,14 +1,19 @@
 #!usr/bin/python
+# DATES : 4JAN15 , 7JAN15
 # DISPATCHER : called by server.py.
 # USE : To read DICT object , and assign it to correct core object .
 # FUNCTIONS:
-# Issues: "put your issues here"
+# Owner : joelmulongo 
+# Issues: "humphrey put your issues here"
+
 
 import core
 from db_store import db
 from medibot_helper import bcolors
 from telegram_interface import create_keyboard
 
+
+# @author humphrey ng'ang'a / joelmulongo  
 class dispatcher():
     """
     class called by a thread that gets a dict and talks to core for
