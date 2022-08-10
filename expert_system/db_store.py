@@ -1,6 +1,6 @@
 #!usr/bin/python
 # Owner :joelmulongo 
-# _author_ = joelmulongo /Sameer Deshmukh
+# _author_ = joelmulongo /Humphrey  Deshmukh
 # _info_   = Connects to database and populates questions
 
 import redis

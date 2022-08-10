@@ -1,6 +1,6 @@
 #!usr/bin/python
 # Owner :humphrey ng'ang'a
-# _author_ = humphrey ng'ang'a / Sameer Deshmukh
+# _author_ = humphrey ng'ang'a / Humphrey  Deshmukh
 # _info_   = This file contains classes and functions for various medibot_helper routines.
 # finalist = list()
 
