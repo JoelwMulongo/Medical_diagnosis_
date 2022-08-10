@@ -1,6 +1,7 @@
-
+# date : 17 jan 2016
 # use  : Mock various classes and objects for automated testing of the bot. For
 # now this file only houses test cases.
+# author : @v0dro
 
 from dispatcher import dispatcher
 from medibot_helper import bcolors

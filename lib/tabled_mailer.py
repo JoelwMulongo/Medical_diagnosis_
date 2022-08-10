@@ -1,10 +1,16 @@
 #!/usr/bin/python
 
+"""
+author: humphrey ng'ang'a
+"""
+
 import os
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+
 import HTML
+
 
 def mail_this(listone, chat_id, bucket_list):
     # me == my email address
@@ -13,8 +19,8 @@ def mail_this(listone, chat_id, bucket_list):
     htmlcode = HTML.table(listone, header_row=['Question', 'Response'])
     htmlcode = htmlcode + '<BR>' + HTML.table(bucket_list, header_row=['Disease', 'Fraction'])
 
-    me = "joelwm@gmail.com"
-    you = "joelwm@gmail.com"
+    me = "joelwambulwa2017@gmail.com"
+    you = "joelwambulwa2017@gmail.com"
 
     # Create message container - the correct MIME type is multipart/alternative.
     msg = MIMEMultipart('alternative')
@@ -43,7 +49,7 @@ def mail_this(listone, chat_id, bucket_list):
     mail.starttls()
     mail.login('medibotreport', os.environ.get('PASSWORD_MAILER'))
     # mail.sendmail(me, you, msg.as_string())
-    mail.sendmail(me, 'joelwm@gmail.com', msg.as_string())
-    mail.sendmail(me, 'sameer.deshmukh93@gmail.com', msg.as_string())
+    mail.sendmail(me, 'joelwambulwa2017@gmail.com', msg.as_string())
+    mail.sendmail(me, 'humphkahiga@gmail.com', msg.as_string())
     mail.quit()
     print "mail sent"
