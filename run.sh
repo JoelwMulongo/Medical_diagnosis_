@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-#Owner :Jaideep Kekre
-#_author_ = Jaideep Kekre
+#Owner :Humphrey ng'ang'a
+#_author_ = Humphrey ng'ang'a
 #_info_   = This module contains a Bash script
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
