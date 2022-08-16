@@ -6,12 +6,10 @@
 # Owner : joelmulongo 
 # Issues: "humphrey put your issues here"
 
-
 import core
 from db_store import db
 from medibot_helper import bcolors
 from telegram_interface import create_keyboard
-
 
 # @author humphrey ng'ang'a / joelmulongo  
 class dispatcher():
