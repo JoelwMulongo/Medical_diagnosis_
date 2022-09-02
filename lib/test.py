@@ -1,7 +1,3 @@
-# date : 17 jan 2016
-# use  : Mock various classes and objects for automated testing of the bot. For
-# now this file only houses test cases.
-# author : @v0dro
 
 from dispatcher import dispatcher
 from medibot_helper import bcolors
@@ -35,21 +31,6 @@ class tester(object):
 
 
 t = tester()
-
-# A simple conversation between bot and a brand new user.
-# user - I have a fever.
-# bot  - Please tell us your temperature after measuring it with a thermometer.
-# user - 103
-# bot  - Alright. Please tell me your age.
-# user - 22
-# bot  - Which area of Pune do you reside in?
-# user - Dhankawadi
-# bot  - Are you experiencing joint pains?
-# user - yes
-# bot  - Are you feeling severe weakness?
-# user - yes
-# bot  - Does anybody else in your household or neighbours have fever too?
-# user - Yes. My mother and sister.
 
 import unittest
 
